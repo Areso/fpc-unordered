@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 433
+  Height = 474
+  Top = 162
+  Width = 514
+  Caption = 'Project1'
+  ClientHeight = 474
+  ClientWidth = 514
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  LCLVersion = '1.4.4.0'
+  object lbStory: TLabel
+    Left = 536
+    Height = 20
+    Top = 32
+    Width = 34
+    Caption = 'Story'
+    ParentColor = False
+    Visible = False
+  end
+  object lbActions: TLabel
+    Left = 328
+    Height = 20
+    Top = 304
+    Width = 150
+    Caption = 'what we should to do?'
+    ParentColor = False
+  end
+  object lbAct1: TLabel
+    Left = 24
+    Height = 20
+    Top = 344
+    Width = 43
+    Caption = 'lbAct1'
+    ParentColor = False
+  end
+  object lbAct2: TLabel
+    Left = 24
+    Height = 20
+    Top = 376
+    Width = 43
+    Caption = 'lbAct2'
+    ParentColor = False
+  end
+  object lbAct3: TLabel
+    Left = 24
+    Height = 20
+    Top = 408
+    Width = 43
+    Caption = 'lbAct3'
+    ParentColor = False
+  end
+  object tStory: TMemo
+    Left = 8
+    Height = 184
+    Top = 96
+    Width = 488
+    Enabled = False
+    TabOrder = 0
+  end
+  object Timer1: TTimer
+    Interval = 1
+    OnTimer = Timer1Timer
+    left = 224
+    top = 304
+  end
+end

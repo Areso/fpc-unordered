@@ -81,10 +81,11 @@ object Form1: TForm1
     Width = 514
     Enabled = False
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -17
+    Font.Height = -27
     Font.Name = 'Chiller'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
+    OnChange = tStoryChange
     ParentFont = False
     TabOrder = 0
   end

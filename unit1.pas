@@ -29,6 +29,7 @@ type
     procedure loadScene();
     procedure hidelbActions();
     procedure Timer1Timer(Sender: TObject);
+    procedure tStoryChange(Sender: TObject);
   private
     { private declarations }
   public
@@ -82,6 +83,11 @@ procedure TForm1.Timer1Timer(Sender: TObject);
 begin
   Timer1.Enabled :=False;
   loadScene();
+end;
+
+procedure TForm1.tStoryChange(Sender: TObject);
+begin
+
 end;
 
 procedure TForm1.hidelbActions();
